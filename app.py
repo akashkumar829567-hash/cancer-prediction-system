@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model = pickle.load(open("cancer_pred.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 
 st.set_page_config(
     page_title="Lung Cancer Prediction",
